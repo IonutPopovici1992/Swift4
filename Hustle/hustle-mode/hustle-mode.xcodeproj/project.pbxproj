@@ -55,15 +55,31 @@
 		52A97F861F49F3DD007E1BFE /* hustle-mode */ = {
 			isa = PBXGroup;
 			children = (
-				52A97F991F49F509007E1BFE /* hustle-on.wav */,
-				52A97F871F49F3DD007E1BFE /* AppDelegate.swift */,
+				52FD993F1FC4450700E7E8E9 /* Storyboards */,
+				52FD993E1FC444D500E7E8E9 /* Supporting files */,
 				52A97F891F49F3DD007E1BFE /* ViewController.swift */,
-				52A97F8B1F49F3DD007E1BFE /* Main.storyboard */,
-				52A97F8E1F49F3DD007E1BFE /* Assets.xcassets */,
-				52A97F901F49F3DD007E1BFE /* LaunchScreen.storyboard */,
 				52A97F931F49F3DD007E1BFE /* Info.plist */,
 			);
 			path = "hustle-mode";
+			sourceTree = "<group>";
+		};
+		52FD993E1FC444D500E7E8E9 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				52A97F871F49F3DD007E1BFE /* AppDelegate.swift */,
+				52A97F8E1F49F3DD007E1BFE /* Assets.xcassets */,
+				52A97F901F49F3DD007E1BFE /* LaunchScreen.storyboard */,
+				52A97F991F49F509007E1BFE /* hustle-on.wav */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		52FD993F1FC4450700E7E8E9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				52A97F8B1F49F3DD007E1BFE /* Main.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
