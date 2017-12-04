@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AvenirNext.ttc">
+            <string>AvenirNext-DemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ExtensionsUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AlI-n6-IYT">
+                                <rect key="frame" x="97" y="184" width="125" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="Kuy-Tu-4Mg"/>
+                                    <constraint firstAttribute="height" constant="40" id="P96-jT-ELQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
+                                <state key="normal" title="COLORIZE">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="colorizeButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="meF-Lf-Vc0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y8N-7D-wC6">
+                                <rect key="frame" x="97" y="274" width="125" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="00L-Co-4Ac"/>
+                                    <constraint firstAttribute="height" constant="40" id="YuP-17-Z71"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
+                                <state key="normal" title="WIGGLE">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="wiggleButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YgC-9i-gAY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RgU-hv-J7k">
+                                <rect key="frame" x="97.5" y="364" width="125" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="1j0-xd-cuW"/>
+                                    <constraint firstAttribute="height" constant="40" id="Okh-dJ-3cr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
+                                <state key="normal" title="DIM">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="dimButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a1e-Ip-qYA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Y8N-7D-wC6" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="0PX-pl-2HU"/>
+                            <constraint firstItem="RgU-hv-J7k" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Equ-wi-J4A"/>
+                            <constraint firstItem="Y8N-7D-wC6" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ISu-Eb-jCa"/>
+                            <constraint firstItem="RgU-hv-J7k" firstAttribute="top" secondItem="Y8N-7D-wC6" secondAttribute="bottom" constant="50" id="UiG-HH-MLj"/>
+                            <constraint firstItem="Y8N-7D-wC6" firstAttribute="top" secondItem="AlI-n6-IYT" secondAttribute="bottom" constant="50" id="avb-TX-MxQ"/>
+                            <constraint firstItem="AlI-n6-IYT" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="vOX-hn-QnX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="colorizeButton" destination="AlI-n6-IYT" id="Kqw-x2-1gc"/>
+                        <outlet property="dimButton" destination="RgU-hv-J7k" id="zi2-WJ-tYy"/>
+                        <outlet property="wiggleButton" destination="Y8N-7D-wC6" id="uyR-1q-7bd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="22.5" y="28.52112676056338"/>
+        </scene>
+    </scenes>
+</document>
