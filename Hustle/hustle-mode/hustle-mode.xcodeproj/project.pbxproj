@@ -12,6 +12,7 @@
 		52A97F8D1F49F3DD007E1BFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A97F8B1F49F3DD007E1BFE /* Main.storyboard */; };
 		52A97F8F1F49F3DD007E1BFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A97F8E1F49F3DD007E1BFE /* Assets.xcassets */; };
 		52A97F921F49F3DD007E1BFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A97F901F49F3DD007E1BFE /* LaunchScreen.storyboard */; };
+		52E653F41FD58E4A004CCFE3 /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 52E653F31FD58E4A004CCFE3 /* hustle-on.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +23,7 @@
 		52A97F8E1F49F3DD007E1BFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52A97F911F49F3DD007E1BFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52A97F931F49F3DD007E1BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52A97F991F49F509007E1BFE /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
+		52E653F31FD58E4A004CCFE3 /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,10 +67,10 @@
 		52FD993E1FC444D500E7E8E9 /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
+				52E653F31FD58E4A004CCFE3 /* hustle-on.wav */,
 				52A97F871F49F3DD007E1BFE /* AppDelegate.swift */,
 				52A97F8E1F49F3DD007E1BFE /* Assets.xcassets */,
 				52A97F901F49F3DD007E1BFE /* LaunchScreen.storyboard */,
-				52A97F991F49F509007E1BFE /* hustle-on.wav */,
 			);
 			path = "Supporting files";
 			sourceTree = "<group>";
@@ -140,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52E653F41FD58E4A004CCFE3 /* hustle-on.wav in Resources */,
 				52A97F921F49F3DD007E1BFE /* LaunchScreen.storyboard in Resources */,
 				52A97F8F1F49F3DD007E1BFE /* Assets.xcassets in Resources */,
 				52A97F8D1F49F3DD007E1BFE /* Main.storyboard in Resources */,

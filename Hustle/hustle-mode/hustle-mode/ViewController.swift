@@ -19,11 +19,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var onLabel: UILabel!
     
     var player: AVAudioPlayer!
-
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let path = Bundle.main.path(forResource: "hustle-on", ofType: "wav")!
+        guard let path = Bundle.main.path(forResource: "hustle-on", ofType: "wav") else { return }
+        
         let url = URL(fileURLWithPath: path)
         do {
             player = try AVAudioPlayer(contentsOf: url)
